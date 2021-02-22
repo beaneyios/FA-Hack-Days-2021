@@ -10,30 +10,44 @@ import UIKit
 class NavigatingListViewController: UIViewController {
     @IBOutlet weak var tableView: UITableView!
     
-    var characters = [
-        "Neo",
-        "Morpheus",
-        "Agent Smith",
-        "Trinity",
-        "Cypher",
-        "The Oracle",
-        "Tank",
-        "Apoc",
-        "Mouse",
-        "Switch",
-        "Dozer"
-    ]
+    /// Note that we start with an empty array this time. We need to download the array.
+    var characters: [Character] = []
     
+    /// This will be responsible for downloading.
+    let charactersController = CharactersController()
+
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        /// Configuring the tableView will kick off the dataSource methods resulting initially in an empty tableView. That's to be expected.
+        /// Once we download the data we will "reload" the tableView.
         self.configureTableView()
+        self.downloadCharacters()
     }
-    
+
     private func configureTableView() {
         let characterNib = UINib(nibName: "CharacterCell", bundle: nil)
         tableView.register(characterNib, forCellReuseIdentifier: "cell")
         tableView.dataSource = self
         tableView.delegate = self
+    }
+    
+    private func downloadCharacters() {
+        /// Ask the `charactersController` for characters.
+        charactersController.getCharacters { (characters) in
+            
+            /// Since this is an asynchronous call,
+            /// and since we can only do UI work on the main thread,
+            /// jump to the main thread.
+            DispatchQueue.main.async {
+                /// Set the new characters.
+                self.characters = characters
+                
+                /// Calling `reloadData` on the tableView will
+                /// kick off all of the dataSource functions below.
+                self.tableView.reloadData()
+            }
+        }
     }
 }
 
@@ -45,7 +59,7 @@ extension NavigatingListViewController: UITableViewDataSource {
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "cell") as! CharacterCell
         let character = self.characters[indexPath.row]
-        cell.configure(name: character)
+        cell.configure(character: character)
         return cell
     }
 }
@@ -65,7 +79,7 @@ extension NavigatingListViewController: UITableViewDelegate {
         detailViewController.character = character
         
         /// Set the title (this appears in the navigation bar).
-        detailViewController.title = character
+        detailViewController.title = character.name
         
         /// Use the navigation controller that this
         /// VC was embedded in to "push" the detail view controller.
