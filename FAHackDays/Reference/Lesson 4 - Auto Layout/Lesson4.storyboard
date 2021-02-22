@@ -1,7 +1,112 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13142" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_7" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12042"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
-    <scenes/>
+    <scenes>
+        <!--Auto Layout View Controller-->
+        <scene sceneID="4ER-zR-LYA">
+            <objects>
+                <viewController storyboardIdentifier="AutoLayout" id="9dp-hL-ps4" customClass="AutoLayoutViewController" customModule="FAHackDays" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="LX8-O1-kgG">
+                        <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="View Controller" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JuR-ax-RkM">
+                                <rect key="frame" x="25" y="44" width="378" height="27"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mg0-Jh-fUk">
+                                <rect key="frame" x="228.33333333333337" y="237" width="100" height="44"/>
+                                <color key="backgroundColor" systemColor="systemBlueColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="R02-Cp-Bq0"/>
+                                    <constraint firstAttribute="height" constant="44" id="vuG-H0-eyu"/>
+                                </constraints>
+                                <state key="normal" title="Blue pill">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="bluePillTapped:" destination="9dp-hL-ps4" eventType="touchUpInside" id="bIZ-Sp-6Pt"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yIS-my-D9k">
+                                <rect key="frame" x="99.666666666666686" y="237" width="100" height="44"/>
+                                <color key="backgroundColor" systemColor="systemRedColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="ku9-nt-FXL"/>
+                                    <constraint firstAttribute="height" constant="44" id="vst-pz-vKb"/>
+                                </constraints>
+                                <state key="normal" title="Red pill">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="redPillButtonTapped:" destination="9dp-hL-ps4" eventType="touchUpInside" id="PDn-Mn-Tb5"/>
+                                </connections>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Matrix" translatesAutoresizingMaskIntoConstraints="NO" id="u03-KW-BsR">
+                                <rect key="frame" x="50" y="101" width="328" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="8J4-dY-KJy"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Message Lablel" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Q4h-HA-g4J">
+                                <rect key="frame" x="25" y="311" width="378" height="48"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="48" id="e7C-Hb-gB9"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="MkO-ct-c61"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="MkO-ct-c61" firstAttribute="trailing" secondItem="JuR-ax-RkM" secondAttribute="trailing" constant="25" id="0Bd-Eb-NUR"/>
+                            <constraint firstItem="Q4h-HA-g4J" firstAttribute="top" secondItem="Mg0-Jh-fUk" secondAttribute="bottom" constant="30" id="2Sd-uR-cw8"/>
+                            <constraint firstItem="MkO-ct-c61" firstAttribute="trailing" secondItem="Q4h-HA-g4J" secondAttribute="trailing" constant="25" id="4ms-Tz-MEi"/>
+                            <constraint firstItem="Mg0-Jh-fUk" firstAttribute="centerX" secondItem="MkO-ct-c61" secondAttribute="centerX" multiplier="1.3" id="7cQ-dH-7VC"/>
+                            <constraint firstItem="yIS-my-D9k" firstAttribute="top" secondItem="u03-KW-BsR" secondAttribute="bottom" constant="36" id="95p-a7-lIm"/>
+                            <constraint firstItem="Q4h-HA-g4J" firstAttribute="leading" secondItem="MkO-ct-c61" secondAttribute="leading" constant="25" id="C6W-EO-JSb"/>
+                            <constraint firstItem="MkO-ct-c61" firstAttribute="trailing" secondItem="u03-KW-BsR" secondAttribute="trailing" constant="50" id="DgY-Nt-xpt"/>
+                            <constraint firstItem="Q4h-HA-g4J" firstAttribute="centerX" secondItem="MkO-ct-c61" secondAttribute="centerX" id="E4z-gd-ejh"/>
+                            <constraint firstItem="JuR-ax-RkM" firstAttribute="leading" secondItem="MkO-ct-c61" secondAttribute="leading" constant="25" id="Iis-ta-WdN"/>
+                            <constraint firstItem="u03-KW-BsR" firstAttribute="leading" secondItem="MkO-ct-c61" secondAttribute="leading" constant="50" id="JaU-Ao-axh"/>
+                            <constraint firstItem="JuR-ax-RkM" firstAttribute="top" secondItem="MkO-ct-c61" secondAttribute="top" id="LQc-6I-HLv"/>
+                            <constraint firstItem="Mg0-Jh-fUk" firstAttribute="top" secondItem="u03-KW-BsR" secondAttribute="bottom" constant="36" id="NsT-nU-xpF"/>
+                            <constraint firstItem="u03-KW-BsR" firstAttribute="top" secondItem="JuR-ax-RkM" secondAttribute="bottom" constant="30" id="TNc-cv-7PZ"/>
+                            <constraint firstItem="yIS-my-D9k" firstAttribute="centerX" secondItem="MkO-ct-c61" secondAttribute="centerX" multiplier="0.7" id="daU-H1-z80"/>
+                            <constraint firstItem="MkO-ct-c61" firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="Q4h-HA-g4J" secondAttribute="bottom" id="n3j-Tv-DGL"/>
+                            <constraint firstItem="u03-KW-BsR" firstAttribute="leading" secondItem="MkO-ct-c61" secondAttribute="leading" constant="50" id="uGh-Cj-M9e"/>
+                            <constraint firstItem="MkO-ct-c61" firstAttribute="trailing" secondItem="u03-KW-BsR" secondAttribute="trailing" constant="50" id="w9T-cS-wxu"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="messageLabel" destination="Q4h-HA-g4J" id="gAZ-1C-OOk"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="XcB-4l-K3d" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1008" y="59"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Matrix" width="1200" height="800"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemBlueColor">
+            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemRedColor">
+            <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
 </document>
