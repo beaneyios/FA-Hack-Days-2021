@@ -12,6 +12,7 @@ class HelloWorldViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        let testString = "Welcome to the iOS workshop"
+        print(testString)
     }
 }
