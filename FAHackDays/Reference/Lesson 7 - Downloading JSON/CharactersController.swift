@@ -36,7 +36,6 @@ class CharactersController {
                 completion(decodableCharacters)
             } catch let error {
                 /// This will be some kind of parsing error. Print it and call the callback with an empty array.
-                print(String(data: data, encoding: .utf8))
                 print(error)
                 let emptyCharacterArray = [Character]()
                 completion(emptyCharacterArray)
