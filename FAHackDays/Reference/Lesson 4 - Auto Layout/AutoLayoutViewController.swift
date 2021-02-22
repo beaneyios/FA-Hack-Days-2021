@@ -1,5 +1,5 @@
 //
-//  ExampleViewController.swift
+//  AutoLayoutViewController.swift
 //  FAHackDays
 //
 //  Created by Wesley Lindsay on 22/02/2021.
@@ -8,7 +8,7 @@
 import Foundation
 import UIKit
 
-class ExampleViewController: UIViewController {
+class AutoLayoutViewController: UIViewController {
 
     // MARK: IBOutlets
 
