@@ -20,6 +20,9 @@
 		BE32808D25E3D5AE004F8CFA /* Lesson5.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE32808C25E3D5AE004F8CFA /* Lesson5.storyboard */; };
 		BE32809325E3D645004F8CFA /* CharacterCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE32809125E3D645004F8CFA /* CharacterCell.swift */; };
 		BE32809425E3D645004F8CFA /* CharacterCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE32809225E3D645004F8CFA /* CharacterCell.xib */; };
+		BE32809F25E3FDD0004F8CFA /* NavigatingListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE32809E25E3FDD0004F8CFA /* NavigatingListViewController.swift */; };
+		BE3280A425E3FF7D004F8CFA /* NavigationDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE3280A325E3FF7D004F8CFA /* NavigationDetailViewController.swift */; };
+		BE3280A925E40183004F8CFA /* GoodbyeWorld.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE3280A825E40183004F8CFA /* GoodbyeWorld.swift */; };
 		BE7AFA2E25DEEE7300C5AF68 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE7AFA2D25DEEE7300C5AF68 /* AppDelegate.swift */; };
 		BE7AFA3725DEEE7500C5AF68 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE7AFA3625DEEE7500C5AF68 /* Assets.xcassets */; };
 		BE7AFA3A25DEEE7500C5AF68 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE7AFA3825DEEE7500C5AF68 /* LaunchScreen.storyboard */; };
@@ -59,6 +62,9 @@
 		BE32808C25E3D5AE004F8CFA /* Lesson5.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Lesson5.storyboard; sourceTree = "<group>"; };
 		BE32809125E3D645004F8CFA /* CharacterCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterCell.swift; sourceTree = "<group>"; };
 		BE32809225E3D645004F8CFA /* CharacterCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CharacterCell.xib; sourceTree = "<group>"; };
+		BE32809E25E3FDD0004F8CFA /* NavigatingListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigatingListViewController.swift; sourceTree = "<group>"; };
+		BE3280A325E3FF7D004F8CFA /* NavigationDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationDetailViewController.swift; sourceTree = "<group>"; };
+		BE3280A825E40183004F8CFA /* GoodbyeWorld.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoodbyeWorld.swift; sourceTree = "<group>"; };
 		BE7AFA2A25DEEE7300C5AF68 /* FAHackDays.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FAHackDays.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE7AFA2D25DEEE7300C5AF68 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BE7AFA3625DEEE7500C5AF68 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -111,6 +117,7 @@
 			isa = PBXGroup;
 			children = (
 				0D84E96725E3D13D00776A7D /* Lesson2.storyboard */,
+				BE3280A825E40183004F8CFA /* GoodbyeWorld.swift */,
 			);
 			path = "Lesson 2 - Anatomy";
 			sourceTree = "<group>";
@@ -163,6 +170,8 @@
 			isa = PBXGroup;
 			children = (
 				0D84E95325E3D12000776A7D /* Lesson8.storyboard */,
+				BE32809E25E3FDD0004F8CFA /* NavigatingListViewController.swift */,
+				BE3280A325E3FF7D004F8CFA /* NavigationDetailViewController.swift */,
 			);
 			path = "Lesson 8 - Navigation";
 			sourceTree = "<group>";
@@ -380,10 +389,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE32809F25E3FDD0004F8CFA /* NavigatingListViewController.swift in Sources */,
 				BE32809325E3D645004F8CFA /* CharacterCell.swift in Sources */,
 				0D84E90625E3BDAE00776A7D /* HelloWorldViewController.swift in Sources */,
 				BE7AFA2E25DEEE7300C5AF68 /* AppDelegate.swift in Sources */,
+				BE3280A425E3FF7D004F8CFA /* NavigationDetailViewController.swift in Sources */,
 				0D84E91425E3C5FA00776A7D /* ExampleViewController.swift in Sources */,
+				BE3280A925E40183004F8CFA /* GoodbyeWorld.swift in Sources */,
 				BE32808525E3CE62004F8CFA /* ListViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
