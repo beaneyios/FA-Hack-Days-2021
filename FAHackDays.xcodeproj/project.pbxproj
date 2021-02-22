@@ -28,7 +28,7 @@
 		BE7AFA3A25DEEE7500C5AF68 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE7AFA3825DEEE7500C5AF68 /* LaunchScreen.storyboard */; };
 		BE7AFA4525DEEE7500C5AF68 /* FAHackDaysTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE7AFA4425DEEE7500C5AF68 /* FAHackDaysTests.swift */; };
 		BE7AFA5025DEEE7500C5AF68 /* FAHackDaysUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE7AFA4F25DEEE7500C5AF68 /* FAHackDaysUITests.swift */; };
-		BE7AFA7925DEF7E200C5AF68 /* Hello World.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE7AFA7825DEF7E200C5AF68 /* Hello World.storyboard */; };
+		BE7AFA7925DEF7E200C5AF68 /* Lesson1.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE7AFA7825DEF7E200C5AF68 /* Lesson1.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -76,7 +76,7 @@
 		BE7AFA4B25DEEE7500C5AF68 /* FAHackDaysUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FAHackDaysUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE7AFA4F25DEEE7500C5AF68 /* FAHackDaysUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FAHackDaysUITests.swift; sourceTree = "<group>"; };
 		BE7AFA5125DEEE7500C5AF68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BE7AFA7825DEF7E200C5AF68 /* Hello World.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Hello World.storyboard"; sourceTree = "<group>"; };
+		BE7AFA7825DEF7E200C5AF68 /* Lesson1.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Lesson1.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,7 +107,7 @@
 		0D84E8F725E3BC1C00776A7D /* Lesson 1 - Xcode */ = {
 			isa = PBXGroup;
 			children = (
-				BE7AFA7825DEF7E200C5AF68 /* Hello World.storyboard */,
+				BE7AFA7825DEF7E200C5AF68 /* Lesson1.storyboard */,
 				0D84E90525E3BDAE00776A7D /* HelloWorldViewController.swift */,
 			);
 			path = "Lesson 1 - Xcode";
@@ -362,7 +362,7 @@
 				0D84E96D25E3D14500776A7D /* Instructions.txt in Resources */,
 				BE32809425E3D645004F8CFA /* CharacterCell.xib in Resources */,
 				0D84E96825E3D13D00776A7D /* Lesson2.storyboard in Resources */,
-				BE7AFA7925DEF7E200C5AF68 /* Hello World.storyboard in Resources */,
+				BE7AFA7925DEF7E200C5AF68 /* Lesson1.storyboard in Resources */,
 				0D84E95425E3D12000776A7D /* Lesson8.storyboard in Resources */,
 				BE7AFA3725DEEE7500C5AF68 /* Assets.xcassets in Resources */,
 			);

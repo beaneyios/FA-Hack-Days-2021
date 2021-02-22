@@ -52,23 +52,23 @@ extension NavigatingListViewController: UITableViewDataSource {
 
 extension NavigatingListViewController: UITableViewDelegate {
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        // Fetch the character from the characters array.
+        /// Fetch the character from the characters array.
         let character = characters[indexPath.row]
                 
-        // Initialise the storyboard object where we will get the detail view controller from.
+        /// Initialise the storyboard object where we will get the detail view controller from.
         let storyboard = UIStoryboard(name: "Lesson8", bundle: nil)
         
-        // Use the storyboard to initialise the detail view controller.
+        /// Use the storyboard to initialise the detail view controller.
         let detailViewController = storyboard.instantiateViewController(identifier: "NavigationDetailViewController") as! NavigationDetailViewController
         
-        // Set the character object on the view controller (we'll use this later).
+        /// Set the character object on the view controller (we'll use this later).
         detailViewController.character = character
         
-        // Set the title (this appears in the navigation bar).
+        /// Set the title (this appears in the navigation bar).
         detailViewController.title = character
         
-        // Use the navigation controller that this
-        // VC was embedded in to "push" the detail view controller.
+        /// Use the navigation controller that this
+        /// VC was embedded in to "push" the detail view controller.
         self.navigationController?.pushViewController(detailViewController, animated: true)
     }
     

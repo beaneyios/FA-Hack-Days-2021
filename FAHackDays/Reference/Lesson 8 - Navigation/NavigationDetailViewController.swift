@@ -17,6 +17,7 @@ class NavigationDetailViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        /// Safely unwrap the potentially nil `character` and set the outlets based on it.
         if let character = character {
             self.detailImage.image = UIImage(named: character)
             self.detailText.text = character
