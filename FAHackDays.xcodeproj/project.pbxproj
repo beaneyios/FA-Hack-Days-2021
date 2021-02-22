@@ -8,6 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		0D84E90625E3BDAE00776A7D /* HelloWorldViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D84E90525E3BDAE00776A7D /* HelloWorldViewController.swift */; };
+		0D84E90F25E3C5D000776A7D /* Lesson3.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D84E90E25E3C5D000776A7D /* Lesson3.storyboard */; };
+		0D84E91425E3C5FA00776A7D /* ExampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D84E91325E3C5FA00776A7D /* ExampleViewController.swift */; };
+		0D84E95425E3D12000776A7D /* Lesson8.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D84E95325E3D12000776A7D /* Lesson8.storyboard */; };
+		0D84E95925E3D12800776A7D /* Lesson7.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D84E95825E3D12800776A7D /* Lesson7.storyboard */; };
+		0D84E95E25E3D12F00776A7D /* Lesson6.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D84E95D25E3D12F00776A7D /* Lesson6.storyboard */; };
+		0D84E96325E3D13500776A7D /* Lesson4.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D84E96225E3D13500776A7D /* Lesson4.storyboard */; };
+		0D84E96825E3D13D00776A7D /* Lesson2.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D84E96725E3D13D00776A7D /* Lesson2.storyboard */; };
+		0D84E96D25E3D14500776A7D /* Instructions.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0D84E96C25E3D14500776A7D /* Instructions.txt */; };
 		BE32808525E3CE62004F8CFA /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE32808425E3CE62004F8CFA /* ListViewController.swift */; };
 		BE7AFA2E25DEEE7300C5AF68 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE7AFA2D25DEEE7300C5AF68 /* AppDelegate.swift */; };
 		BE7AFA3725DEEE7500C5AF68 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE7AFA3625DEEE7500C5AF68 /* Assets.xcassets */; };
@@ -36,6 +44,14 @@
 
 /* Begin PBXFileReference section */
 		0D84E90525E3BDAE00776A7D /* HelloWorldViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloWorldViewController.swift; sourceTree = "<group>"; };
+		0D84E90E25E3C5D000776A7D /* Lesson3.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Lesson3.storyboard; sourceTree = "<group>"; };
+		0D84E91325E3C5FA00776A7D /* ExampleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleViewController.swift; sourceTree = "<group>"; };
+		0D84E95325E3D12000776A7D /* Lesson8.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Lesson8.storyboard; sourceTree = "<group>"; };
+		0D84E95825E3D12800776A7D /* Lesson7.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Lesson7.storyboard; sourceTree = "<group>"; };
+		0D84E95D25E3D12F00776A7D /* Lesson6.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Lesson6.storyboard; sourceTree = "<group>"; };
+		0D84E96225E3D13500776A7D /* Lesson4.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Lesson4.storyboard; sourceTree = "<group>"; };
+		0D84E96725E3D13D00776A7D /* Lesson2.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Lesson2.storyboard; sourceTree = "<group>"; };
+		0D84E96C25E3D14500776A7D /* Instructions.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Instructions.txt; sourceTree = "<group>"; };
 		BE32808425E3CE62004F8CFA /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
 		BE7AFA2A25DEEE7300C5AF68 /* FAHackDays.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FAHackDays.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE7AFA2D25DEEE7300C5AF68 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -88,6 +104,7 @@
 		0D84E8F825E3BC2700776A7D /* Lesson 2 - Anatomy */ = {
 			isa = PBXGroup;
 			children = (
+				0D84E96725E3D13D00776A7D /* Lesson2.storyboard */,
 			);
 			path = "Lesson 2 - Anatomy";
 			sourceTree = "<group>";
@@ -95,6 +112,8 @@
 		0D84E8F925E3BC5B00776A7D /* Lesson 3 - View Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				0D84E90E25E3C5D000776A7D /* Lesson3.storyboard */,
+				0D84E91325E3C5FA00776A7D /* ExampleViewController.swift */,
 			);
 			path = "Lesson 3 - View Controllers";
 			sourceTree = "<group>";
@@ -102,6 +121,7 @@
 		0D84E8FA25E3BC6700776A7D /* Lesson 4 - Auto Layout */ = {
 			isa = PBXGroup;
 			children = (
+				0D84E96225E3D13500776A7D /* Lesson4.storyboard */,
 			);
 			path = "Lesson 4 - Auto Layout";
 			sourceTree = "<group>";
@@ -117,6 +137,7 @@
 		0D84E8FC25E3BC8C00776A7D /* Lesson 6 - Models */ = {
 			isa = PBXGroup;
 			children = (
+				0D84E95D25E3D12F00776A7D /* Lesson6.storyboard */,
 			);
 			path = "Lesson 6 - Models";
 			sourceTree = "<group>";
@@ -124,6 +145,7 @@
 		0D84E8FD25E3BC9500776A7D /* Lesson 7 - Downloading JSON */ = {
 			isa = PBXGroup;
 			children = (
+				0D84E95825E3D12800776A7D /* Lesson7.storyboard */,
 			);
 			path = "Lesson 7 - Downloading JSON";
 			sourceTree = "<group>";
@@ -131,6 +153,7 @@
 		0D84E8FE25E3BD4A00776A7D /* Lesson 8 - Navigation */ = {
 			isa = PBXGroup;
 			children = (
+				0D84E95325E3D12000776A7D /* Lesson8.storyboard */,
 			);
 			path = "Lesson 8 - Navigation";
 			sourceTree = "<group>";
@@ -138,6 +161,7 @@
 		0D84E90A25E3C0D100776A7D /* Try it yourself */ = {
 			isa = PBXGroup;
 			children = (
+				0D84E96C25E3D14500776A7D /* Instructions.txt */,
 			);
 			path = "Try it yourself";
 			sourceTree = "<group>";
@@ -311,8 +335,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0D84E95E25E3D12F00776A7D /* Lesson6.storyboard in Resources */,
+				0D84E96325E3D13500776A7D /* Lesson4.storyboard in Resources */,
+				0D84E90F25E3C5D000776A7D /* Lesson3.storyboard in Resources */,
 				BE7AFA3A25DEEE7500C5AF68 /* LaunchScreen.storyboard in Resources */,
+				0D84E95925E3D12800776A7D /* Lesson7.storyboard in Resources */,
+				0D84E96D25E3D14500776A7D /* Instructions.txt in Resources */,
+				0D84E96825E3D13D00776A7D /* Lesson2.storyboard in Resources */,
 				BE7AFA7925DEF7E200C5AF68 /* Hello World.storyboard in Resources */,
+				0D84E95425E3D12000776A7D /* Lesson8.storyboard in Resources */,
 				BE7AFA3725DEEE7500C5AF68 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -340,6 +371,7 @@
 			files = (
 				0D84E90625E3BDAE00776A7D /* HelloWorldViewController.swift in Sources */,
 				BE7AFA2E25DEEE7300C5AF68 /* AppDelegate.swift in Sources */,
+				0D84E91425E3C5FA00776A7D /* ExampleViewController.swift in Sources */,
 				BE32808525E3CE62004F8CFA /* ListViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
