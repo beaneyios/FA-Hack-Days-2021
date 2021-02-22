@@ -10,7 +10,7 @@ import Foundation
 class CharactersController {
     func getCharacters(completion: @escaping ([Character]) -> Void) {
         /// Create a URL object.
-        let url = URL(string: "https://beaneyios.github.io/characters-array.json")!
+        let url = URL(string: "https://beaneyios.github.io/characters.json")!
         
         /// Fetch the "shared" session
         let urlSession = URLSession.shared
