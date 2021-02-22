@@ -30,15 +30,27 @@ class ListViewController: UIViewController {
     }
     
     private func configureTableView() {
+        // Creates a nib from our CharacterCell xib file.
         let characterNib = UINib(nibName: "CharacterCell", bundle: nil)
+        
+        // Registers the nib as a dequeuable cell in the table view.
         tableView.register(characterNib, forCellReuseIdentifier: "cell")
+        
+        // Tells the tableView that this view controller
+        // will provide it with the number and type of cells
         tableView.dataSource = self
+        
+        // Tells the view controller this will handle
+        // (among other things) cell height and tap events.
         tableView.delegate = self
     }
 }
 
 extension ListViewController: UITableViewDataSource {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        
+        // Tells the table view to attempt to render
+        // as many cells as there are characters.
         return self.characters.count
     }
 
@@ -68,10 +80,12 @@ extension ListViewController: UITableViewDelegate {
     
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         
+        // Return a different size, depending on whether a cell is
+        // even or odd.
         if indexPath.row % 2 == 0 {
             return 75.0
         } else {
-            return 75.0
+            return 65.0
         }
         
     }
