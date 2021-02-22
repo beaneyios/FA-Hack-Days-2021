@@ -10,3 +10,6 @@ import Foundation
 struct Character {
     let name: String
 }
+
+/// LESSON 7: Downloading JSON.
+extension Character: Decodable {}

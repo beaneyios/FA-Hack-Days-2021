@@ -31,7 +31,7 @@ class ModalListViewController: UIViewController {
 
     private func configureTableView() {
         // Creates a nib from our CharacterCell xib file.
-        let characterNib = UINib(nibName: "ModalCharacterCell", bundle: nil)
+        let characterNib = UINib(nibName: "CharacterCell", bundle: nil)
 
         // Registers the nib as a dequeuable cell in the table view.
         tableView.register(characterNib, forCellReuseIdentifier: "cell")
@@ -56,7 +56,7 @@ extension ModalListViewController: UITableViewDataSource {
 
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         // Dequeue the cell from the tableView, and cast it to a CharacterCell
-        let cell = tableView.dequeueReusableCell(withIdentifier: "cell") as! ModalCharacterCell
+        let cell = tableView.dequeueReusableCell(withIdentifier: "cell") as! CharacterCell
 
         // Fetch the character that corresponds to the row the tableView is asking for.
         let character = self.characters[indexPath.row]

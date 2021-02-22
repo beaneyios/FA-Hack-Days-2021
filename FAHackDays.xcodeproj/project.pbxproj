@@ -18,9 +18,7 @@
 		0D84E96D25E3D14500776A7D /* Instructions.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0D84E96C25E3D14500776A7D /* Instructions.txt */; };
 		0D84E97825E3E7BE00776A7D /* AutoLayoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D84E97725E3E7BE00776A7D /* AutoLayoutViewController.swift */; };
 		0D84E97D25E3ECD400776A7D /* ModalListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D84E97C25E3ECD400776A7D /* ModalListViewController.swift */; };
-		0D84E98225E3ED3300776A7D /* ModalCharacterCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D84E98125E3ED3300776A7D /* ModalCharacterCell.swift */; };
 		0D84E98725E3EDEA00776A7D /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D84E98625E3EDEA00776A7D /* Character.swift */; };
-		0D84E98C25E3EE2200776A7D /* ModalCharacterCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0D84E98B25E3EE2200776A7D /* ModalCharacterCell.xib */; };
 		BE32808525E3CE62004F8CFA /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE32808425E3CE62004F8CFA /* ListViewController.swift */; };
 		BE32808D25E3D5AE004F8CFA /* Lesson5.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE32808C25E3D5AE004F8CFA /* Lesson5.storyboard */; };
 		BE32809325E3D645004F8CFA /* CharacterCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE32809125E3D645004F8CFA /* CharacterCell.swift */; };
@@ -28,6 +26,8 @@
 		BE32809F25E3FDD0004F8CFA /* NavigatingListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE32809E25E3FDD0004F8CFA /* NavigatingListViewController.swift */; };
 		BE3280A425E3FF7D004F8CFA /* NavigationDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE3280A325E3FF7D004F8CFA /* NavigationDetailViewController.swift */; };
 		BE3280A925E40183004F8CFA /* GoodbyeWorld.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE3280A825E40183004F8CFA /* GoodbyeWorld.swift */; };
+		BE3280BA25E42B06004F8CFA /* JSONListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE3280B925E42B06004F8CFA /* JSONListViewController.swift */; };
+		BE3280C225E42B19004F8CFA /* CharactersController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE3280C125E42B19004F8CFA /* CharactersController.swift */; };
 		BE7AFA2E25DEEE7300C5AF68 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE7AFA2D25DEEE7300C5AF68 /* AppDelegate.swift */; };
 		BE7AFA3725DEEE7500C5AF68 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE7AFA3625DEEE7500C5AF68 /* Assets.xcassets */; };
 		BE7AFA3A25DEEE7500C5AF68 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE7AFA3825DEEE7500C5AF68 /* LaunchScreen.storyboard */; };
@@ -65,9 +65,7 @@
 		0D84E96C25E3D14500776A7D /* Instructions.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Instructions.txt; sourceTree = "<group>"; };
 		0D84E97725E3E7BE00776A7D /* AutoLayoutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoLayoutViewController.swift; sourceTree = "<group>"; };
 		0D84E97C25E3ECD400776A7D /* ModalListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalListViewController.swift; sourceTree = "<group>"; };
-		0D84E98125E3ED3300776A7D /* ModalCharacterCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalCharacterCell.swift; sourceTree = "<group>"; };
 		0D84E98625E3EDEA00776A7D /* Character.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
-		0D84E98B25E3EE2200776A7D /* ModalCharacterCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ModalCharacterCell.xib; sourceTree = "<group>"; };
 		BE32808425E3CE62004F8CFA /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
 		BE32808C25E3D5AE004F8CFA /* Lesson5.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Lesson5.storyboard; sourceTree = "<group>"; };
 		BE32809125E3D645004F8CFA /* CharacterCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterCell.swift; sourceTree = "<group>"; };
@@ -75,6 +73,8 @@
 		BE32809E25E3FDD0004F8CFA /* NavigatingListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigatingListViewController.swift; sourceTree = "<group>"; };
 		BE3280A325E3FF7D004F8CFA /* NavigationDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationDetailViewController.swift; sourceTree = "<group>"; };
 		BE3280A825E40183004F8CFA /* GoodbyeWorld.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoodbyeWorld.swift; sourceTree = "<group>"; };
+		BE3280B925E42B06004F8CFA /* JSONListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONListViewController.swift; sourceTree = "<group>"; };
+		BE3280C125E42B19004F8CFA /* CharactersController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharactersController.swift; sourceTree = "<group>"; };
 		BE7AFA2A25DEEE7300C5AF68 /* FAHackDays.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FAHackDays.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE7AFA2D25DEEE7300C5AF68 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BE7AFA3625DEEE7500C5AF68 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -153,10 +153,10 @@
 		0D84E8FB25E3BC7800776A7D /* Lesson 5 - Lists */ = {
 			isa = PBXGroup;
 			children = (
-				BE32808425E3CE62004F8CFA /* ListViewController.swift */,
 				BE32808C25E3D5AE004F8CFA /* Lesson5.storyboard */,
 				BE32809125E3D645004F8CFA /* CharacterCell.swift */,
 				BE32809225E3D645004F8CFA /* CharacterCell.xib */,
+				BE32808425E3CE62004F8CFA /* ListViewController.swift */,
 			);
 			path = "Lesson 5 - Lists";
 			sourceTree = "<group>";
@@ -165,10 +165,8 @@
 			isa = PBXGroup;
 			children = (
 				0D84E95D25E3D12F00776A7D /* Lesson6.storyboard */,
-				0D84E97C25E3ECD400776A7D /* ModalListViewController.swift */,
-				0D84E98125E3ED3300776A7D /* ModalCharacterCell.swift */,
-				0D84E98B25E3EE2200776A7D /* ModalCharacterCell.xib */,
 				0D84E98625E3EDEA00776A7D /* Character.swift */,
+				0D84E97C25E3ECD400776A7D /* ModalListViewController.swift */,
 			);
 			path = "Lesson 6 - Models";
 			sourceTree = "<group>";
@@ -177,6 +175,8 @@
 			isa = PBXGroup;
 			children = (
 				0D84E95825E3D12800776A7D /* Lesson7.storyboard */,
+				BE3280C125E42B19004F8CFA /* CharactersController.swift */,
+				BE3280B925E42B06004F8CFA /* JSONListViewController.swift */,
 			);
 			path = "Lesson 7 - Downloading JSON";
 			sourceTree = "<group>";
@@ -370,7 +370,6 @@
 			files = (
 				0D84E95E25E3D12F00776A7D /* Lesson6.storyboard in Resources */,
 				0D84E96325E3D13500776A7D /* Lesson4.storyboard in Resources */,
-				0D84E98C25E3EE2200776A7D /* ModalCharacterCell.xib in Resources */,
 				0D84E90F25E3C5D000776A7D /* Lesson3.storyboard in Resources */,
 				BE32808D25E3D5AE004F8CFA /* Lesson5.storyboard in Resources */,
 				BE7AFA3A25DEEE7500C5AF68 /* LaunchScreen.storyboard in Resources */,
@@ -406,15 +405,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				0D84E98725E3EDEA00776A7D /* Character.swift in Sources */,
+				BE3280C225E42B19004F8CFA /* CharactersController.swift in Sources */,
 				BE32809F25E3FDD0004F8CFA /* NavigatingListViewController.swift in Sources */,
 				BE32809325E3D645004F8CFA /* CharacterCell.swift in Sources */,
 				0D84E90625E3BDAE00776A7D /* HelloWorldViewController.swift in Sources */,
 				BE7AFA2E25DEEE7300C5AF68 /* AppDelegate.swift in Sources */,
 				BE3280A425E3FF7D004F8CFA /* NavigationDetailViewController.swift in Sources */,
 				0D84E91425E3C5FA00776A7D /* ExampleViewController.swift in Sources */,
+				BE3280BA25E42B06004F8CFA /* JSONListViewController.swift in Sources */,
 				BE3280A925E40183004F8CFA /* GoodbyeWorld.swift in Sources */,
 				BE32808525E3CE62004F8CFA /* ListViewController.swift in Sources */,
-				0D84E98225E3ED3300776A7D /* ModalCharacterCell.swift in Sources */,
 				0D84E97825E3E7BE00776A7D /* AutoLayoutViewController.swift in Sources */,
 				0D84E97D25E3ECD400776A7D /* ModalListViewController.swift in Sources */,
 			);
