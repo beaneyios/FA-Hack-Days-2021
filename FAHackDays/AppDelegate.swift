@@ -15,11 +15,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         
         let storyboard = UIStoryboard(
-            name: "Hello World",
+            name: "Lesson5",
             bundle: nil
         )
         
-        let startingViewController = storyboard.instantiateViewController(identifier: "HelloWorld")
+        let startingViewController = storyboard.instantiateViewController(identifier: "ListViewController")
         
         window = UIWindow(frame: UIScreen.main.bounds)
         window?.rootViewController = startingViewController
