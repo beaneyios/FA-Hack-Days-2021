@@ -18,3 +18,12 @@ class CharacterCell: UITableViewCell {
         characterImage.image = UIImage(named: name) // Can be found in Assets.xcassets.
     }
 }
+
+/// LESSON 6: Models
+extension CharacterCell {
+    /// Instead of configuring with a string, we now configure with a `Character` object.
+    func configure(character: Character) {
+        characterNameLabel.text = character.name
+        characterImage.image = UIImage(named: character.name)
+    }
+}
