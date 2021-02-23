@@ -19,6 +19,8 @@
 		0D84E97825E3E7BE00776A7D /* AutoLayoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D84E97725E3E7BE00776A7D /* AutoLayoutViewController.swift */; };
 		0D84E97D25E3ECD400776A7D /* ModalListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D84E97C25E3ECD400776A7D /* ModalListViewController.swift */; };
 		0D84E98725E3EDEA00776A7D /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D84E98625E3EDEA00776A7D /* Character.swift */; };
+		0D84E9CD25E5170400776A7D /* Matrix.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D84E9CC25E5170400776A7D /* Matrix.storyboard */; };
+		0D84E9D225E5176E00776A7D /* MatrixViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D84E9D125E5176E00776A7D /* MatrixViewController.swift */; };
 		BE32808525E3CE62004F8CFA /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE32808425E3CE62004F8CFA /* ListViewController.swift */; };
 		BE32808D25E3D5AE004F8CFA /* Lesson5.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE32808C25E3D5AE004F8CFA /* Lesson5.storyboard */; };
 		BE32809325E3D645004F8CFA /* CharacterCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE32809125E3D645004F8CFA /* CharacterCell.swift */; };
@@ -66,6 +68,8 @@
 		0D84E97725E3E7BE00776A7D /* AutoLayoutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoLayoutViewController.swift; sourceTree = "<group>"; };
 		0D84E97C25E3ECD400776A7D /* ModalListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalListViewController.swift; sourceTree = "<group>"; };
 		0D84E98625E3EDEA00776A7D /* Character.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
+		0D84E9CC25E5170400776A7D /* Matrix.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Matrix.storyboard; sourceTree = "<group>"; };
+		0D84E9D125E5176E00776A7D /* MatrixViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatrixViewController.swift; sourceTree = "<group>"; };
 		BE32808425E3CE62004F8CFA /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
 		BE32808C25E3D5AE004F8CFA /* Lesson5.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Lesson5.storyboard; sourceTree = "<group>"; };
 		BE32809125E3D645004F8CFA /* CharacterCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterCell.swift; sourceTree = "<group>"; };
@@ -195,6 +199,8 @@
 			isa = PBXGroup;
 			children = (
 				0D84E96C25E3D14500776A7D /* Instructions.txt */,
+				0D84E9CC25E5170400776A7D /* Matrix.storyboard */,
+				0D84E9D125E5176E00776A7D /* MatrixViewController.swift */,
 			);
 			path = "Try it yourself";
 			sourceTree = "<group>";
@@ -377,6 +383,7 @@
 				0D84E96D25E3D14500776A7D /* Instructions.txt in Resources */,
 				BE32809425E3D645004F8CFA /* CharacterCell.xib in Resources */,
 				0D84E96825E3D13D00776A7D /* Lesson2.storyboard in Resources */,
+				0D84E9CD25E5170400776A7D /* Matrix.storyboard in Resources */,
 				BE7AFA7925DEF7E200C5AF68 /* Lesson1.storyboard in Resources */,
 				0D84E95425E3D12000776A7D /* Lesson8.storyboard in Resources */,
 				BE7AFA3725DEEE7500C5AF68 /* Assets.xcassets in Resources */,
@@ -417,6 +424,7 @@
 				BE32808525E3CE62004F8CFA /* ListViewController.swift in Sources */,
 				0D84E97825E3E7BE00776A7D /* AutoLayoutViewController.swift in Sources */,
 				0D84E97D25E3ECD400776A7D /* ModalListViewController.swift in Sources */,
+				0D84E9D225E5176E00776A7D /* MatrixViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
