@@ -7,7 +7,7 @@
 
 import Foundation
 
-class CharactersController {
+class CharactersService {
     func getCharacters(completion: @escaping ([Character]) -> Void) {
         /// Create a URL object.
         let url = URL(string: "https://beaneyios.github.io/characters.json")!

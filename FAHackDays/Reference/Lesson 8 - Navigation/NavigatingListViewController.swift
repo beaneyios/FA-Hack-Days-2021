@@ -14,7 +14,7 @@ class NavigatingListViewController: UIViewController {
     var characters: [Character] = []
     
     /// This will be responsible for downloading.
-    let charactersController = CharactersController()
+    let charactersController = CharactersService()
 
     override func viewDidLoad() {
         super.viewDidLoad()
