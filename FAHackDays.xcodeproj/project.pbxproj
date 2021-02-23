@@ -36,6 +36,7 @@
 		BE32810E25E54421004F8CFA /* FAListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE32810D25E54421004F8CFA /* FAListViewController.swift */; };
 		BE32811425E544A7004F8CFA /* FACharacterCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE32811225E544A7004F8CFA /* FACharacterCell.swift */; };
 		BE32811525E544A7004F8CFA /* FACharacterCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE32811325E544A7004F8CFA /* FACharacterCell.xib */; };
+		BE32812025E561B9004F8CFA /* FADetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE32811F25E561B9004F8CFA /* FADetailViewController.swift */; };
 		BE7AFA2E25DEEE7300C5AF68 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE7AFA2D25DEEE7300C5AF68 /* AppDelegate.swift */; };
 		BE7AFA3725DEEE7500C5AF68 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE7AFA3625DEEE7500C5AF68 /* Assets.xcassets */; };
 		BE7AFA3A25DEEE7500C5AF68 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE7AFA3825DEEE7500C5AF68 /* LaunchScreen.storyboard */; };
@@ -91,6 +92,7 @@
 		BE32810D25E54421004F8CFA /* FAListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FAListViewController.swift; sourceTree = "<group>"; };
 		BE32811225E544A7004F8CFA /* FACharacterCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FACharacterCell.swift; sourceTree = "<group>"; };
 		BE32811325E544A7004F8CFA /* FACharacterCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FACharacterCell.xib; sourceTree = "<group>"; };
+		BE32811F25E561B9004F8CFA /* FADetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FADetailViewController.swift; sourceTree = "<group>"; };
 		BE7AFA2A25DEEE7300C5AF68 /* FAHackDays.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FAHackDays.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE7AFA2D25DEEE7300C5AF68 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BE7AFA3625DEEE7500C5AF68 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -219,6 +221,7 @@
 				BE32811325E544A7004F8CFA /* FACharacterCell.xib */,
 				0D84E9E125E553DD00776A7D /* FACharacter.swift */,
 				0D84E9E625E5575000776A7D /* CharacterService.swift */,
+				BE32811F25E561B9004F8CFA /* FADetailViewController.swift */,
 			);
 			path = "Try it yourself";
 			sourceTree = "<group>";
@@ -446,6 +449,7 @@
 				0D84E9E225E553DD00776A7D /* FACharacter.swift in Sources */,
 				BE32808525E3CE62004F8CFA /* ListViewController.swift in Sources */,
 				0D84E97825E3E7BE00776A7D /* AutoLayoutViewController.swift in Sources */,
+				BE32812025E561B9004F8CFA /* FADetailViewController.swift in Sources */,
 				0D84E9E725E5575000776A7D /* CharacterService.swift in Sources */,
 				0D84E97D25E3ECD400776A7D /* ModalListViewController.swift in Sources */,
 				0D84E9D225E5176E00776A7D /* MatrixViewController.swift in Sources */,

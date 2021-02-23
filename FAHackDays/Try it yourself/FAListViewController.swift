@@ -57,7 +57,15 @@ extension FAListViewController: UITableViewDataSource {
 extension FAListViewController: UITableViewDelegate {
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         let character = characters[indexPath.row]
-        print(character)
+        
+        let storyboard = UIStoryboard(name: "Lists", bundle: nil)
+        
+        if let detailViewController = storyboard.instantiateViewController(identifier: "FADetailViewController") as? FADetailViewController {
+            
+            detailViewController.title = character.name
+            detailViewController.character = character
+            self.navigationController?.pushViewController(detailViewController, animated: true)
+        }
     }
     
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {

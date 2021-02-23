@@ -9,8 +9,4 @@ import Foundation
 
 struct FACharacter: Codable {
     let name: String
-
-    let others: [Character]
-    let x: Character
-
 }
