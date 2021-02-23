@@ -8,26 +8,28 @@
 import UIKit
 
 class FAListViewController: UIViewController {
-    
+
     @IBOutlet weak var tableView: UITableView!
-    
-    var characters = [
-        "Neo",
-        "Morpheus",
-        "Agent Smith",
-        "Trinity",
-        "Cypher",
-        "The Oracle",
-        "Tank",
-        "Apoc",
-        "Mouse",
-        "Switch",
-        "Dozer"
-    ]
+
+    var characters: [FACharacter] = []
+    let characterService = CharacterService()
     
     override func viewDidLoad() {
         super.viewDidLoad()
         self.configureTableView()
+        self.fetchCharacters()
+    }
+
+    private func fetchCharacters() {
+        characterService.fetchCharacters { characters in
+
+            DispatchQueue.main.async {
+
+                self.characters = characters
+
+                self.tableView.reloadData()
+            }
+        }
     }
     
     private func configureTableView() {
@@ -47,7 +49,7 @@ extension FAListViewController: UITableViewDataSource {
         
         let cell = tableView.dequeueReusableCell(withIdentifier: "cell") as! FACharacterCell
         let character = characters[indexPath.row]
-        cell.configure(name: character)
+        cell.configure(character: character)
         return cell
     }
 }
@@ -61,7 +63,7 @@ extension FAListViewController: UITableViewDelegate {
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         let character = characters[indexPath.row]
         
-        if character == "Neo" {
+        if character.name == "Neo" {
             return 150.0
         } else {
             return 75.0

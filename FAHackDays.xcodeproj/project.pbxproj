@@ -21,6 +21,8 @@
 		0D84E98725E3EDEA00776A7D /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D84E98625E3EDEA00776A7D /* Character.swift */; };
 		0D84E9CD25E5170400776A7D /* Matrix.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D84E9CC25E5170400776A7D /* Matrix.storyboard */; };
 		0D84E9D225E5176E00776A7D /* MatrixViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D84E9D125E5176E00776A7D /* MatrixViewController.swift */; };
+		0D84E9E225E553DD00776A7D /* FACharacter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D84E9E125E553DD00776A7D /* FACharacter.swift */; };
+		0D84E9E725E5575000776A7D /* CharacterService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D84E9E625E5575000776A7D /* CharacterService.swift */; };
 		BE32808525E3CE62004F8CFA /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE32808425E3CE62004F8CFA /* ListViewController.swift */; };
 		BE32808D25E3D5AE004F8CFA /* Lesson5.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE32808C25E3D5AE004F8CFA /* Lesson5.storyboard */; };
 		BE32809325E3D645004F8CFA /* CharacterCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE32809125E3D645004F8CFA /* CharacterCell.swift */; };
@@ -74,6 +76,8 @@
 		0D84E98625E3EDEA00776A7D /* Character.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
 		0D84E9CC25E5170400776A7D /* Matrix.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Matrix.storyboard; sourceTree = "<group>"; };
 		0D84E9D125E5176E00776A7D /* MatrixViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatrixViewController.swift; sourceTree = "<group>"; };
+		0D84E9E125E553DD00776A7D /* FACharacter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FACharacter.swift; sourceTree = "<group>"; };
+		0D84E9E625E5575000776A7D /* CharacterService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterService.swift; sourceTree = "<group>"; };
 		BE32808425E3CE62004F8CFA /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
 		BE32808C25E3D5AE004F8CFA /* Lesson5.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Lesson5.storyboard; sourceTree = "<group>"; };
 		BE32809125E3D645004F8CFA /* CharacterCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterCell.swift; sourceTree = "<group>"; };
@@ -213,6 +217,8 @@
 				BE32810D25E54421004F8CFA /* FAListViewController.swift */,
 				BE32811225E544A7004F8CFA /* FACharacterCell.swift */,
 				BE32811325E544A7004F8CFA /* FACharacterCell.xib */,
+				0D84E9E125E553DD00776A7D /* FACharacter.swift */,
+				0D84E9E625E5575000776A7D /* CharacterService.swift */,
 			);
 			path = "Try it yourself";
 			sourceTree = "<group>";
@@ -437,8 +443,10 @@
 				0D84E91425E3C5FA00776A7D /* ExampleViewController.swift in Sources */,
 				BE3280BA25E42B06004F8CFA /* JSONListViewController.swift in Sources */,
 				BE3280A925E40183004F8CFA /* GoodbyeWorld.swift in Sources */,
+				0D84E9E225E553DD00776A7D /* FACharacter.swift in Sources */,
 				BE32808525E3CE62004F8CFA /* ListViewController.swift in Sources */,
 				0D84E97825E3E7BE00776A7D /* AutoLayoutViewController.swift in Sources */,
+				0D84E9E725E5575000776A7D /* CharacterService.swift in Sources */,
 				0D84E97D25E3ECD400776A7D /* ModalListViewController.swift in Sources */,
 				0D84E9D225E5176E00776A7D /* MatrixViewController.swift in Sources */,
 			);

@@ -12,8 +12,8 @@ class FACharacterCell: UITableViewCell {
     @IBOutlet weak var characterNameLabel: UILabel!
     @IBOutlet weak var characterImage: UIImageView!
     
-    func configure(name: String) {
-        characterNameLabel.text = name
-        characterImage.image = UIImage(named: name)
+    func configure(character: FACharacter) {
+        characterNameLabel.text = character.name
+        characterImage.image = UIImage(named: character.name)
     }
 }

@@ -12,4 +12,4 @@ struct Character {
 }
 
 /// LESSON 7: Downloading JSON.
-extension Character: Decodable {}
+extension Character: Codable {}
