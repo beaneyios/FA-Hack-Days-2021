@@ -24,15 +24,15 @@ class BillDetailViewController: UIViewController {
         self.referenceLabel.text = bill.reference
         self.dueValueLabel.text = "£\(bill.due_value)"
         
-//        switch bill.status {
-//        case "Open":
-//            statusLabel.textColor = .orange
-//        case "Paid":
-//            statusLabel.textColor = .systemGreen
-//        case "Overdue":
-//            statusLabel.textColor = .red
-//        default:
-//            break
-//        }
+        switch bill.status {
+        case "Open":
+            statusLabel.textColor = .orange
+        case "Paid":
+            statusLabel.textColor = .systemGreen
+        case "Overdue":
+            statusLabel.textColor = .red
+        default:
+            break
+        }
     }
 }
